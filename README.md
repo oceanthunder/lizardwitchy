@@ -10,7 +10,9 @@ This repo contains configs and tweaks for my Arch Linux setup.
 - index.html - Main index page
 - neovim.html - Neovim configuration
 - packages.html - List of packages
+- styles.css - Styling webpage
 - ublock.html - uBlock Origin config
+  
 
 ## GitHub Pages
 
