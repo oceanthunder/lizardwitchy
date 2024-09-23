@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bash config</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -17,10 +18,10 @@ PS1='\[\033[01;31m\][\w]\[\033[00m\]\[\033[01;31m\]>\[\033[00m\] '
     </pre>
 
     <p>
-           Removes the user@hostname part from the prompt to reduce clutter and highlights the start of the command prompt in bright red for easy identification.
+            Removes the user@hostname part from the prompt to reduce clutter and highlights the start of the command prompt in bright red for easy identification. Also, I <em>prefer</em> > instead of $.
     </p>
     <p>
-            From <strong><em>[user@hostname~]$</em></strong> to <strong><em>[~]></em></strong>
+            From <strong><em><span class="green-text">[user@hostname~]$</span></em></strong> to <strong><em><span class="red-text">[~]></span></em></strong>
     </p>
 
 </body>
