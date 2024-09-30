@@ -1,8 +1,22 @@
-body {
+html, body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     background-color: #121212;
     color: #ffffff;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    text-align: right;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
 
 .green-text {
@@ -31,12 +45,15 @@ img {
     max-width: 60%;
     height: auto;
     display: block;
+    margin-top: 15px;
 }
 
 h1 {
     font-size: 2rem;
     font-weight: 700;
     color: #bb86fc;
+    text-align: center;
+    margin: 0px;
 }
 
 h2 {
@@ -54,6 +71,7 @@ section {
     margin: 20px 0;
     padding: 10px;
     border-left: 4px solid #bb86fc;
+    flex: 1;
 }
 
 ul {
@@ -67,16 +85,20 @@ li {
 footer {
     background-color: #1e1e1e;
     color: #ffffff;
-    padding: 1px;
+    padding: 4px;
     text-align: center;
     font-size: 0.875rem;
 }
 
 header, section, footer {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.69);
 }
 
 li a:hover {
     color: #ff4081;
     transition: color 0.3s ease;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
 }
