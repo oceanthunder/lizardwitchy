@@ -12,8 +12,3 @@ This repo contains configs and tweaks for my Arch Linux setup.
 - packages.html - List of packages
 - styles.css - Styling webpage
 - ublock.html - uBlock Origin config
-  
-
-## GitHub Pages
-
-You can view this project live at: [oceanthunder.github.io/lizardwitchy](https://oceanthunder.github.io/lizardwitchy)
