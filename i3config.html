@@ -11,9 +11,10 @@
     <header>    
     <h1>i3 Config</h1>
     </header>
-    <head>
-        <strong>nvim ~/.config/i3/config</strong>
-    </head>
+        <main> 
+    <button id="copy-button">Copy</button>
+    <strong>the below into ~/.config/i3/config.</strong>
+
     <pre class="text-box">
 set $mod Mod4
 
@@ -257,6 +258,7 @@ bindsym Print exec flameshot gui
 # Dunst for supressing blueman's notifications (connect/disconnect)
 exec_always --no-startup-id dunst
         </pre>
+        </main>
 
     <footer>
         <a href="https://github.com/oceanthunder/lizardwitchy" target="_blank">
@@ -265,6 +267,6 @@ exec_always --no-startup-id dunst
             </svg>
         </a>
     </footer>
-
+    <script src='script.js'></script>
     </body>
 </html>

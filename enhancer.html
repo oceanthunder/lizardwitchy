@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
-    <h1>Enhancer for Youtube Config</h1>
+        <h1>Enhancer for Youtube Config</h1>
     </header>
-    <head>
-      <strong>Copy the below into a .txt file and then select 'Import' in Enhancer's settings.</strong>
-    </head>
-    <pre class='text-box'>
+    <main>
+        <button id="copy-button">Copy</button>
+        <strong>the below content into a .txt file and then select 'Import' in Enhancer's settings.</strong>
+        <pre class='text-box'>
 {
   "version": "2.0.126",
   "settings": {
@@ -113,7 +112,8 @@
     "wideplayerviewport": true
   }
 }        
-    </pre>
+        </pre>
+    </main>
 
     <footer>
         <a href="https://github.com/oceanthunder/lizardwitchy" target="_blank">
@@ -122,6 +122,6 @@
             </svg>
         </a>
     </footer>
-
-    </body>
+    <script src='script.js'></script>
+</body>
 </html>
